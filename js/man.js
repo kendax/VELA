@@ -25,6 +25,7 @@ jQuery(document).ready(function(){
 
 
 	});
+});
 $(window).scroll(function(){
 var top = $(window).scrollTop();
 if(top>=60){

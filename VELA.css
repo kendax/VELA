@@ -71,6 +71,22 @@ li a{
 	-o-transition:all 0.5s ease-in;
 	-ms-transition:all 0.5s ease-in;
 }
+.burger div{
+	width:25px;
+	height:3px;
+	background-color:#C30612;
+	margin:5px;
+	margin-right:0px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+.burger{
+	display:none;
+	cursor:pointer;
+}
 
 li a:hover {
 	background-color: #555;

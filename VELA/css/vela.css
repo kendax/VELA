@@ -1,0 +1,99 @@
+body{
+    font-family: 'Abel';
+}
+.nav1 li{
+    display:inline-block;
+}
+.nav1 li a{
+    color:black;
+}
+.nav1 li a:hover{
+    color:#404040;
+}
+.nav2 li{
+    display:inline;
+    padding-left:70px;
+    font-size:18px;
+}
+.nav2 li a{
+    color:black;
+}
+.nav2 li a:hover{
+    color:#404040;
+}
+.nav2 ul{
+    margin-left:300px;
+}
+nav img{
+    max-width:90px;
+    margin-left:45px;
+}
+nav button{
+    background-color:rgb(63, 170, 104);
+    min-width:80px;
+    height:38px;
+    font-size:14px;
+    border:none;
+    border-radius:4px;
+    color:#f2f2f2;
+
+}
+nav input{
+    width:250px;
+    height:38px;
+    font-size:13px;
+    border:1px solid;
+    border-radius:4px;
+    margin-left:27px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#404040;
+    opacity: 1; /* Firefox */
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #404040;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #404040;
+}
+.accessories{
+    margin-left:740px;
+}
+.accessories1{
+    padding-left:20px;
+}
+.loginlinks{
+    position: absolute;
+    display: none;
+    background-color:#f2f2f2;
+    min-width:100px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.login:hover .loginlinks{
+    display: block;
+}
+.loginlinks  button a{
+    color:white;
+}
+.loginhere-link     :hover{
+    color:deepskyblue;
+}
+ul li .active{
+    color:rgb(63, 170, 104);
+}
+#grid {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+#grid > div {
+  background-color: rgb(250, 248, 249);
+  color: black;
+  font-size: 4vw;
+  padding: 10px;
+  height:200px;
+}
